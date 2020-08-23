@@ -8,4 +8,4 @@ https://aws.amazon.com/blogs/containers/create-a-ci-cd-pipeline-for-amazon-ecs-w
 - I have updated the CDK stack (see ecs-devops-sandbox-cdk/lib/ecs-devops-sandbox-cdk-stack.js) to have an Application Load Balancer so I could test my Hello World App.
 
 ### Note
-- In the tutorial is not very clear but you need to create a new IAM User for GitHub and add Access Key and Secret Key to you repo's secrets.
+- In the tutorial is not very clear but you need to create a new IAM User for GitHub and add Access Key and Secret Key to your repo's secrets.
