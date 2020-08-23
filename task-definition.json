@@ -9,6 +9,14 @@
           "image": "ecs-devops-sandbox-repository:00000",
           "resourceRequirements": null,
           "essential": true,
+          "logConfiguration": { 
+            "logDriver": "awslogs",
+            "options": { 
+               "awslogs-group" : "/ecs/fargate-task-definition",
+               "awslogs-region": "us-east-1",
+               "awslogs-stream-prefix": "ecs"
+            }
+         },
           "portMappings": [
               {
                   "containerPort": "3000",
