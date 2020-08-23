@@ -9,7 +9,7 @@ describe("server", () => {
       .end((err, res) => {
         if (err) { return done(err); }
         expect(res.statusCode).toEqual(200);
-        expect(res.text).toEqual('Hello world!');
+        expect(res.text).toEqual('Hello world v2!');
         done();
       });
     });
