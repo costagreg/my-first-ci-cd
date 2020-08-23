@@ -22,7 +22,7 @@
   "networkMode": "awsvpc",
   "memory": "512",
   "cpu": "256",
-  "executionRoleArn": "***REMOVED***",
+  "executionRoleArn": "arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/ecs-devops-sandbox-execution-role",
   "family": "ecs-devops-sandbox-task-definition",
   "taskRoleArn": "",
   "placementConstraints": []
